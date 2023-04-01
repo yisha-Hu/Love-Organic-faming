@@ -10,4 +10,24 @@
 body{
     font-family: Lato, sans-serif;
     font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
 }
