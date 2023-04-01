@@ -50,17 +50,22 @@ h2{
 
 }
 #menu a:hover {
-    border-bottom: 2px solid #008631;
+    border-bottom: 4px solid #008631;
 }
 .active {
-    border-bottom: 2px solid #008631;
+    border-bottom: 4px solid#008631;
 }
-/* hero-image*/
+/* hero-image and cover*/
 #hero-outer{
     height: 600px;
     width: 100%;
     overflow: hidden; 
+    position: relative;
 }
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
 
 #hero-image{
     height: 600px;
@@ -87,5 +92,27 @@ h2{
         transform: scale(1.1);
     }
 }
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+
+
 
 
