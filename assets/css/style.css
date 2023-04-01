@@ -55,3 +55,37 @@ h2{
 .active {
     border-bottom: 2px solid #008631;
 }
+/* hero-image*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
