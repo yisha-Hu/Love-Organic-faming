@@ -22,7 +22,7 @@ h1{
 h2{
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-weight: 300;
     color: #252525;
 
@@ -115,17 +115,11 @@ h2{
 #wellbeings {
     height: 600px;
 }
-#wellbeings h1 {
-    font-family: oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 300;
-    color: #252525;
-    text-align: center;
-}
-div p {
+
+ p {
     font-family: lato;
     font-weight: 200;
+    color: #008631;
 }
 #left-about {
     padding-top: 30px;
@@ -137,7 +131,6 @@ div p {
     padding-top: 30px;
     width: 45%;
     float: right;
-    background-color: red;
 }
 hr {
     border-top: 2px solid #008631;
@@ -152,6 +145,38 @@ hr {
     clear: both;
     margin-bottom: 40px;
     background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 40px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
 }
 
 
