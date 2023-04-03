@@ -168,6 +168,7 @@ hr {
     background-position: center center;
     height: 100%; 
 }
+
 #cover-bg-middle {
     background-image: url("./images/istockphoto-1265704346-612x612.jpg");
     background-repeat: no-repeat;
@@ -188,6 +189,22 @@ hr {
 .card a {
     color: #008631;
 }
+/*footer*/
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+        
     
 
 
