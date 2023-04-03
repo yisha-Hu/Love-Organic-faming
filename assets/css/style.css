@@ -181,15 +181,20 @@ hr {
     background-position: center center;
     height: 100%;
 }
-
-.card {
-   
+#card a {
     text-align: center;
-}
-.card a {
     color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
 }
+#card{
+    clear:both;
+}
+
 /*footer*/
+    footer{
+        height: 150%;
+    }
     
     .social-networks {
         text-align: center;
