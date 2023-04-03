@@ -111,7 +111,7 @@ h2{
 
     position: absolute;
 }
-/*organic faming wellbeings*/
+/*organic faming matters*/
 #wellbeings {
     height: 600px;
 }
@@ -121,18 +121,37 @@ h2{
     letter-spacing: 1px;
     font-weight: 300;
     color: #252525;
+    text-align: center;
+}
+div p {
+    font-family: lato;
+    font-weight: 200;
 }
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 45%;
     float: left;
-    background-color: blue;
+    
 }
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 45%;
     float: right;
     background-color: red;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
 }
 
 
