@@ -111,9 +111,311 @@ h2{
 
     position: absolute;
 }
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    padding-bottom: 30px;
+    
+    
+}
+#top {
+    text-align: center;
+    
+}
+#middle {
+    text-align: center;
+
+}
+#bottom {
+    text-align: center;
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 65%;
+}
 
 
-/*organic faming matters*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+    display: block;
+    margin-bottom: 20px;
+   }
+   #specific {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 400;
+    padding-bottom: 20px;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+    display: inline-block;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
 #wellbeings {
     height: 600px;
 }
@@ -180,6 +482,10011 @@ hr {
     background-position: center center;
     height: 100%;
 }
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    text-align: center;
+    
+}
+#middle {
+    text-align: center;
+
+}
+#bottom {
+    text-align: center;
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 65%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    padding-bottom: 30px;
+    
+    
+}
+#top {
+    text-align: center;
+    
+}
+#middle {
+    text-align: center;
+
+}
+#bottom {
+    text-align: center;
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 65%;
+}
+
+
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+    display: block;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+    display: inline-block;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    text-align: center;
+    
+}
+#middle {
+    text-align: center;
+
+}
+#bottom {
+    text-align: center;
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 65%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#welcome {
+    text-align: center;
+    padding-top: 20px;
+}
+#container {
+    display: inline-block;
+    
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+    
+}
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    
+    float: right;
+}
+img {
+    width: 60%;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
+#card a {
+    text-align: center;
+    color: #008631;
+    border-bottom: #008631;
+    padding-top: 5px;
+}
+#card{
+    clear:both;
+}
+
+/*footer*/
+    footer{
+        height: 150%;
+    }
+    
+    .social-networks {
+        text-align: center;
+    }
+    .social-networks > li {
+        display: inline;
+       
+    }
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 2%;
+        color:#252525
+   }
+   /*FAQs*/
+   #general {
+    height: 100%;
+   }
+   #specific {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 400;
+   }
+   #wrap {
+    text-align: center;
+    margin: 20px;
+    font-size: 100%;
+    padding-top: 20px;
+    width: 80%;
+    padding-left: 18%;
+
+   }
+   .content {
+    
+    width: 80%;
+    margin-bottom: 40px;
+    
+   }
+   .content h3 {
+    font-size:160%;
+    font-family: lato, sans-serif;
+   }
+
+   .content p {
+    background-color: rgba(216, 203, 196, 0.8);
+    border: 2px solid #008631;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 130%;
+    
+   }
+   #contact {
+    text-align: center;
+   }
+
+   /*sign-up*/
+
+   #form-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    
+   }
+   #tomato-image {
+    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+   #cover-details {
+    width: 20%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+
+   }
+   #details {
+    background-color: rgba(216, 203, 196, 0.8);
+    color: #008631;
+    border: 2px solid #008631;
+    text-align: center;
+    padding: 10px;
+   
+   }
+        
+    
+
+
+
+
+
+
+   
+        
+    
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+    
+
+body{
+    font-family: Lato, sans-serif;
+    font-weight:  300;
+    color: #3a3a3a;
+    
+}
+/* headings and logo */
+h1{
+    font-family: amatic sc, cursive;
+    font-weight: 700;
+    color: #008631;
+}  
+h2{
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #252525;
+
+}
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+/* navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 4px solid #008631;  
+}
+.active {
+    border-bottom: 4px solid #008631;  
+}
+
+/* hero-image and cover*/
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #008631;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    
+    /*animates zoom effects on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom for hero image*/
+ 
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(216, 203, 196, 0.8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/*organic farming matters*/
+#matters {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#container {
+    display: inline-block;
+    
+}
+#top {
+    text-align: center;
+   
+    
+}
+.left-about {
+    width: 30%;
+    background-color: rgba(216, 203, 196, 0.8);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.right-about {
+    width: 30%;
+    float: right;
+}
+
+/*organic faming matters
+#wellbeings {
+    height: 600px;
+}
+
+ p {
+    font-family: lato;
+    font-weight: 200;
+    color: #008631;
+}
+#left-about {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+    
+}
+#right-about {
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+hr {
+    border-top: 2px solid #008631;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+    clear: both;
+    margin-bottom: 40px;
+    background-color: rgba(216, 203, 196, 0.8);
+}
+#welcome {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 180%;
+}
+#container {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #008631;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+#cover-bg-top {
+    background-image: url("./images/istockphoto-1346744481-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; 
+}
+
+#cover-bg-middle {
+    background-image: url("./images/istockphoto-1265704346-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+#cover-bg-bottom {
+    background-image: url("./images/istockphoto-1377829249-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+*/
 #card a {
     text-align: center;
     color: #008631;
