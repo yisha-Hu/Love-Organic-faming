@@ -70,7 +70,7 @@ h2{
 #hero-image{
     height: 600px;
     width: 100%;
-    background-image: url("./images/istockphoto-1126154869-612x612.jpg");
+    background-image: url("../images/istockphoto-1126154869-612x612.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -123,7 +123,9 @@ h2{
     font-size: 180%;
 }
 .container {
- display:inline-block;
+ display:flex;
+ justify-content: center;
+ flex-flow: wrap;
  text-align: center;
  margin: 50px;
     
@@ -181,6 +183,60 @@ h2{
 #card{
     clear:both;
 }
+/*media query for organic farming matters section*/
+@media screen and (max-width:1200px) {
+    #matters{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+}
+    #left-about-top #right-about-top{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    
+    }
+    /* For medium screen sizes from 950px wide and down */
+    @media screen and (max-width: 950px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+        #cover-text {
+            left: 0;
+        }
+        #matters {
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        #left-about-top, #right-about-top {
+            width: inherit;
+        }
+        #left-about-top h2, #right-about-top h2 {
+            width: 100%;
+            text-align: center;
+        }
+        #left-about-top p,#right-about-top p {
+            text-align: center;
+            padding: 0 20px;
+        }
+        #details {
+            right: 0;
+        }
+    }
+        
+    
+    
+
 
 /*footer*/
     footer{
@@ -208,19 +264,24 @@ h2{
     width: 100%;
    }
    #specific {
-    font-size: 160%;
+    font-size: 180%;
     font-weight: 400;
-    padding-right: 200px;
+    text-align: center;
+    padding-top: 20px;
     
    }
    #wrap {
-    text-align: center;
-    padding-top: 20px;
+    
+    padding-top: 30px;
+    
     width: 80%;
     display: inline-block;
 
    }
    .content {
+    margin: 0 auto;
+    padding-top: 30px;
+
     
     width: 80%;
     margin-bottom: 20px;
@@ -261,10 +322,12 @@ h2{
     display: inline-block;
    }
    #cover-details {
-    width: 20%;
-    height: 60%;
+
+    width: 300px;
+    height: 400px;
     padding-left: 100px;
     padding-top: 40px;
+    position: relative;
 
    }
    #details {
@@ -273,7 +336,6 @@ h2{
     border: 2px solid #008631;
     text-align: center;
     padding: 10px;
+    position: absolute;
    
    }
-
-   
