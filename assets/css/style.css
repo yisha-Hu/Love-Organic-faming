@@ -134,7 +134,7 @@ h2{
 
 #left-about-top {
     width: 30%; 
-    height: 300px;
+    height: 250px;
     line-height: 30px;
     background-color: rgba(216, 203, 196, 0.8);
     text-align: center;
@@ -148,7 +148,7 @@ h2{
 }
 #left-about-middle {
     width: 30%;
-    height: 300px;
+    height: 250px;
     line-height: 30px;
     background-color: rgba(216, 203, 196, 0.8);
     text-align: center;
@@ -162,7 +162,7 @@ h2{
 }
 #left-about-bottom {
     width: 30%;
-    height: 300px;
+    height: 250px;
     line-height: 30px;
     background-color: rgba(216, 203, 196, 0.8);
     text-align: center;
@@ -233,9 +233,6 @@ h2{
             right: 0;
         }
     }
-        
-    
-    
 
 
 /*footer*/
@@ -259,32 +256,29 @@ h2{
    /*FAQs*/
    #general {
     height: 100%;
-    display: block;
     margin-bottom: 20px;
     width: 100%;
+    display: block;
    }
    #specific {
     font-size: 180%;
     font-weight: 400;
     text-align: center;
-    padding-top: 20px;
+    
     
    }
    #wrap {
-    
+    display:inline-block;
+    margin: 0 ;
     padding-top: 30px;
-    
-    width: 80%;
-    display: inline-block;
-
+    width:80%;
+    padding-left: 150px;
    }
    .content {
-    margin: 0 auto;
     padding-top: 30px;
+    width: 100%;
+    text-align: center;
 
-    
-    width: 80%;
-    margin-bottom: 20px;
     
    }
    .content h3 {
@@ -298,10 +292,19 @@ h2{
     line-height: 30px;
     letter-spacing: 2px;
     font-size: 110%;
+    padding: 20px;
+    text-align: center;
+    color: #008631;
     
    }
    #contact {
     text-align: center;
+    padding-top: 30px;
+    
+   }
+   #contact p {
+    color: #008631;
+
    }
 
    /*sign-up*/
@@ -314,7 +317,7 @@ h2{
     
    }
    #tomato-image {
-    background-image: url("./images/istockphoto-1400583631-170667a.jpg");
+    background-image: url("../images/istockphoto-1400583631-170667a.jpg");
     width: 100%;
     height: 75vh;
     background-size: 100%;
